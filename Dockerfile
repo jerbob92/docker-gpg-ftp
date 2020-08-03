@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     libncursesw5-dev \
     zlib1g-dev \ 
     gnupg2 \
-    lftp && \
+    lftp \
+    zip && \
     apt-get clean && \
     rm -rf /var/cache/apt/* /var/lib/apt/lists/*
 
